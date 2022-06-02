@@ -82,7 +82,7 @@ html5lib==1.1
 httpcore==0.14.7
 httplib2==0.14.0
 httptools==0.1.2
-httpx==0.22.0
+httpx==0.23.0
 hyperlink==19.0.0
 idna==2.8
 importlib-metadata==4.11.3
