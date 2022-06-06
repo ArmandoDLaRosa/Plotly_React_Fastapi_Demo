@@ -38,22 +38,22 @@ def read_main():
 def get_status():
     return {"status": "ok"}
 
-@app.get("/graph-demo")
+@app.get("/graph-student-bar")
 def get_graph():
     details = {
-        'MeterID': [ "METER_01EP7CKAY1EDQJ3VIR8TQ3DT2 ",
-                    "METER_01EP7JPM10WSLN6GO4RSYHVL8  ",
-                    "METER_01EP7KFQR1E1YGEU94H2WX81L  ",
-                    "METER_01EP7WWUQHL6UZH14KDC612WF  ",
-                    "METER_01EP7TQFBGUJKVTNP8V3FXMCE  "],
-        'Percentage%': [80, 90, 35, 55, 56],
-        'Expected': [12, 15, 12, 13, 10]
+        'Student': [ "S1 ",
+                     "S2  ",
+                     "S3  ",
+                     "S4  ",
+                     "S5  "],
+        'Grade': [80, 90, 35, 55, 56],
+        'Expected': [100, 100, 100, 100, 100]
         }
     df = pd.DataFrame(details)            
     gas_figure = go.Figure(go.Bar(
-        x=df["Expected"], y=df["MeterID"],
-        hovertemplate = 'MeterID: %{y}'+'<br>Expected: %{x}<br>'+'Percentage: %{text}',
-        text = [' {}%'.format(i) for i in df['Percentage%']],
+        x=df["Expected"], y=df["Student"],
+        hovertemplate = 'Student: %{y}'+'<br>Expected: %{x}<br>'+'Grade: %{text}',
+        text = [' {}%'.format(i) for i in df['Grade']],
         orientation='h'
     ))
     return json.loads(gas_figure.to_json())
