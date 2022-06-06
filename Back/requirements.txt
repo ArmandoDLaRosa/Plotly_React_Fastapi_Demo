@@ -168,7 +168,7 @@ python-slugify==6.1.2
 python3-openid==3.2.0
 pytz==2022.1
 pytzdata==2020.1
-PyYAML==5.3.1
+PyYAML==5.4
 pyzmq==23.0.0
 requests==2.22.0
 requests-toolbelt==0.9.1
