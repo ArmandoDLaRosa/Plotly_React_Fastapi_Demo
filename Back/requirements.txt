@@ -203,7 +203,7 @@ tornado==6.1
 traceback2==1.4.0
 traitlets==5.2.1.post0
 ttystatus==0.38
-Twisted==18.9.0
+Twisted==22.4.0
 typing-extensions==4.2.0
 ubuntu-advantage-tools==27.7
 ufw==0.36
