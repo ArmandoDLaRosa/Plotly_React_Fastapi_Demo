@@ -1,6 +1,9 @@
 # Plotly_React_Fastapi_Demo
 Project to understand how to create plotly graphs and show them in react
 
+# Get Frontend 
+`git submodule update --init`
+
 # TO DO
 * Connect to database
 * Hardcoded stuff -> Queries
