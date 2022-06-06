@@ -2,7 +2,11 @@
 Project to understand how to create plotly graphs and show them in react
 
 # Get Frontend 
+`cd ProjectRootFolder/`
+
 `git submodule update --init`
+
+(About GitSubmodules in Github)[https://gist.github.com/gitaarik/8735255]
 
 # TO DO
 * Connect to database
