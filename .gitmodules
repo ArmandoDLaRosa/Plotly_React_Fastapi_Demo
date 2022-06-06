@@ -1,0 +1,4 @@
+[submodule "Frontend--Plotly-from-fastapi"]
+	path = Frontend--Plotly-from-fastapi
+	url = https://github.com/ArmandoDLaRosa/Frontend--Plotly-from-fastapi.git
+	update = rebase
