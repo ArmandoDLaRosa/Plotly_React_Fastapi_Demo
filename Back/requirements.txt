@@ -28,5 +28,5 @@ starlette==0.19.1
 tenacity==8.0.1
 typing_extensions==4.2.0
 uvicorn==0.17.6
-Werkzeug==2.1.2
+Werkzeug==2.2.3
 zipp==3.8.0
